@@ -23,7 +23,7 @@ We've provided you with a console that you can use to test your code. To enter a
 
 **Remember!** This is a code challenge without tests. You cannot run `rspec` you cannot run `learn`. You'll need to create your own sample instances for testing purposes. Make sure your associations and methods work in the console before submitting.
 
-## Deliverables
+## Deliverables 
 
 ### Basic methods
 
