@@ -1,5 +1,8 @@
 class Customer
+  # extend CleanUp::ClassMethods
+
   attr_reader :first_name, :last_name
+
 
   @@all = []
 
