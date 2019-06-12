@@ -10,6 +10,7 @@ end
 jim = Customer.new("Jimmy",  "Neutron")
 tim = Customer.new("Timmy", "Turner")
 kim = Customer.new("Kim", "Possible")
+bb = Customer.new("Bubble", "Bass")
 
 la = Restaurant.new("La Villa")
 aoc = Restaurant.new("A.O.C.")
@@ -30,6 +31,8 @@ jim.add_review( aoc,  "My Taste buds are Tingling!!", 4)
 jim.add_review( la,  "It's okay...", 3)
 jim.add_review( kk,  "CARL, YOU GOTTA COME HERE!", 5)
 jim.add_review( cb,  "Gross! Gotta BLAST!", 1)
+
+bb.add_review( kk, "THEY FORGOT THE PICKLES!", 1)
 
 
 binding.pry

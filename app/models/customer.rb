@@ -22,14 +22,20 @@ class Customer
     Review.new(customer: self, restaurant: restaurant, content: content, rating: rating)
   end
 
+  # helper method to get all my reviews
+  def my_reviews
+    Review.all.select { |review| review.customer == self }
+  end
+
   def num_reviews
     # Returns the total number of reviews that a customer has authored
-    
+      self.my_reviews.count
   end
+
 
   def restaurants
     # Returns a unique array of all restaurants a customer has reviewed
-
+    self.my_reviews.map { |review| review.restaurant }
   end
 
 end
