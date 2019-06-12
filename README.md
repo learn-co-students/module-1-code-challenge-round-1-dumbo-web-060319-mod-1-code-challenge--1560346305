@@ -27,11 +27,11 @@ We've provided you with a console that you can use to test your code. To enter a
 
 ### Basic methods
 
-- `Customer.all`
+- `Customer.all` DONE 
   - should return **all** of the customer instances
-- `Restaurant.all`
+- `Restaurant.all`DONE
   - returns an array of all restaurants
-- `Review.all`
+- `Review.all` NEED TEST
   - returns all of the reviews
   
 ### Associations and Aggregate Methods
