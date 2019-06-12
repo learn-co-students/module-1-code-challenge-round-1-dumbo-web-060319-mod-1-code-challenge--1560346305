@@ -27,33 +27,33 @@ We've provided you with a console that you can use to test your code. To enter a
 
 ### Basic methods
 
-- `Customer.all`
+- `Customer.all` - DONE
   - should return **all** of the customer instances
-- `Restaurant.all`
+- `Restaurant.all`  - DONE
   - returns an array of all restaurants
-- `Review.all`
+- `Review.all` - DONE
   - returns all of the reviews
-  
+
 ### Associations and Aggregate Methods
 
 #### Customer
 
-- `Customer#add_review(restaurant, content, rating)`
+- `Customer#add_review(restaurant, content, rating)` - DONE
   - given a **restaurant object**, some review content (as a string), and a star rating (as an integer), creates a new review and associates it with that customer and restaurant.
-- `Customer#num_reviews`
+- `Customer#num_reviews` - DONE
   - Returns the total number of reviews that a customer has authored
-- `Customer#restaurants`
+- `Customer#restaurants` - DONE
   - Returns a **unique** array of all restaurants a customer has reviewed
 
 #### Restaurant
 
-- `Restaurant#customers`
+- `Restaurant#customers` - DONE
   - Returns a **unique** list of all customers who have reviewed a particular restaurant.
-- `Restaurant#reviews`
+- `Restaurant#reviews` - DONE
   - returns an array of all reviews for that restaurant
-- `Restaurant#average_star_rating`
+- `Restaurant#average_star_rating` -
   - returns the average star rating for a restaurant based on its reviews
-- `Restaurant#longest_review`
+- `Restaurant#longest_review` - 
   - returns the longest review content for a given restaurant
 
 ### Class Methods and Properties
@@ -74,13 +74,13 @@ We've provided you with a console that you can use to test your code. To enter a
 
 #### Build out the following methods on the `Review` class
 
-- `Review#customer`
+- `Review#customer` - DONE
   - returns the customer object for that given review
   - Once a review is created, I should not be able to change the author
-- `Review#restaurant`
+- `Review#restaurant` - DONE
   - returns the restaurant object for that given review
   - Once a review is created, I should not be able to change the restaurant
-- `Review#rating`
+- `Review#rating` - DONE
   - returns the star rating for a restaurant. This should be an integer from 1-5
-- `Review#content`
+- `Review#content` - DONE
   - returns the review content, as a string, for a particular review
